@@ -1,0 +1,64 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "commander",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/steipete/Commander.git",
+          "name" : "Commander"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "9e349575c8e3c6745e81fe19e5bb5efa01b078ce",
+            "version" : "0.2.1"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "Commander"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "phonenumberkit",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/marmelroy/PhoneNumberKit.git",
+          "name" : "PhoneNumberKit"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "ad20aba8db84a6ba373abfcffe38b1c8e6f8258b",
+            "version" : "4.2.7"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "PhoneNumberKit"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "sqlite.swift",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/stephencelis/SQLite.swift.git",
+          "name" : "SQLite.swift"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "964c300fb0736699ce945c9edb56ecd62eba27a3",
+            "version" : "0.16.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "SQLite.swift"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}
