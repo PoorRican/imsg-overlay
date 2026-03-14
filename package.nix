@@ -23,7 +23,7 @@ let
   sqliteSwiftSrc = fetchgit {
     url = "https://github.com/stephencelis/SQLite.swift.git";
     rev = "964c300fb0736699ce945c9edb56ecd62eba27a3";
-    hash = "sha256-cfaqWqYaWSLs91bo3u0lAAfoNT+QEQu1qLN/BBGDzQo=";
+    hash = "sha256-FmQTqezPw/TkARCTG36CU44XOgbCfpYyHQLtdjoSE9Y=";
     leaveDotGit = true;
   };
 in
